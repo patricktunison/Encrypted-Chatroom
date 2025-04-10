@@ -4,6 +4,6 @@ users can log in or register with a username and password. everything runs in th
 
 no chat logs are saved, and all messages are encrypted in transit. server handles the relaying, not the storage.
 
-run `generate_key.py` first to make the encryption key. then run `server.py`, and open multiple terminals to run `client.py` for each user. 
+run `generate_key.py` first to make the encryption key. then run `server.py`, and open multiple terminals to run `client.py` for each user. you can modify server and client files to route it to a specific address for the server. it is set to localhost and port 12345 by default.
 
 written for a programming class project, mostly just to show off socket programming, threading, and encryption.
